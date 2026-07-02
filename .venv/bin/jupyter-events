@@ -1,0 +1,6 @@
+#!/home/thhaase/GoogleDrive/_1_Projects/0_WHK/psychological_constructs_llm_coding/.venv/bin/python3
+import sys
+from jupyter_events.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
